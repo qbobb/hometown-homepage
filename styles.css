@@ -1,0 +1,107 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    
+    
+    
+}
+
+.hero {
+    background-image: url("images/colo-flag.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#title {
+    background-color: #19283B;
+    color: white;
+    border-radius: 8px;
+    margin: 100px 10px 0 10px;
+    padding: 5px 10px 5px 10px;
+    
+    
+}
+
+#subtitle {
+    color: white;
+    background-color: #707D86;
+    border-radius: 8px;
+    margin: 10px 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.activities {
+    background-color: #EBDCCD;
+    padding: 10px;
+    
+}
+
+.three-activities {
+   display: flex; 
+   padding: 10px;
+   align-items: center;
+   
+     
+}
+
+.guide {
+    background-color: #707D86;
+    width: 400px;
+    align-content: center;
+    padding: 10px;
+    margin: 50px auto;
+    border-radius: 10px;
+    display: flex;
+    border-bottom: 5px solid #1D3557;
+
+    
+}
+
+
+#tour-guide {
+    border-radius: 10px;
+    margin: 10px;
+    height: 248px;
+    width: 180px;
+   
+}
+
+#guide-info{
+    margin: 20px;
+}
+
+#park {
+    margin: 10px;
+    padding: 10px;
+}
+
+#theatre {
+    margin: 10px;
+    padding: 10px;
+}
+
+#sports {
+    margin: 10px;
+    padding: 10px;
+}
